@@ -47,6 +47,15 @@ namespace _002._SumOfTwo
 
 public class Exercise
 {
+
+    
+    //Tengo una lista de personas que tienen un valor entero determinado  (1,2,3.10...etc)
+    //Estas personas pueden hacer pareja con cualquier otra persona cuya suma de sus valores sean los requeridos por el algoritmo
+    //Una persona solo puede hacer pareja una vez, es decir son Monogamos
+    //
+    // Es decir si se requiere una suma de 5, y tengo una persona de 4, y otra de uno, esta es una pareja
+    // y ya no  se pueden ocupar para formar otra pareja
+    // Luego entonces, ¿Cuantas parejas puedo formar? cuya suma sea la cantidad requerida por el algoritmo
     public static int SumOfTwo(int[] nums, int SumToFind)
     {
         Dictionary<int, int> dic = new Dictionary<int, int>();
