@@ -12,9 +12,9 @@
     {
         public static Parent GetInstance()
         {
-            Parent objK;
-            objK = new Child();
-            return objK;
+            Parent obChild;
+            obChild = new Child();
+            return obChild;
         }
     }
 
